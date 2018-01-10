@@ -1,9 +1,49 @@
 
-numero_ganador = 7
+number_to_guess = 2
 
-numero_usuario = int(input("Adivina el numero: "))
+user_number = int(input("Adivina un numero: "))
 
-if numero_ganador == numero_usuario:
-    print("Has adivinado!")
+if number_to_guess == user_number:
+    print("Has Ganado")
 else:
-    print("Has perdido")
+    print("Has Perdido")
+    number_to_guess = 2
+
+    user_number = int(input("Adivina un numero: "))
+
+    if number_to_guess == user_number:
+        print("Has Ganado")
+    else:
+        print("Has Perdido")
+        number_to_guess = 2
+
+        user_number = int(input("Adivina un numero: "))
+
+        if number_to_guess == user_number:
+            print("Has Ganado")
+        else:
+            print("Has Perdido")
+            number_to_guess = 2
+
+            user_number = int(input("Adivina un numero: "))
+
+            if number_to_guess == user_number:
+                print("Has Ganado")
+            else:
+                print("Has Perdido")
+                number_to_guess = 2
+
+                user_number = int(input("Adivina un numero: "))
+
+                if number_to_guess == user_number:
+                    print("Has Ganado")
+                else:
+                    print("Has Perdido")
+                    number_to_guess = 2
+
+                    user_number = int(input("Adivina un numero: "))
+
+                    if number_to_guess == user_number:
+                        print("Has Ganado")
+                    else:
+                        print("Has Perdido")
